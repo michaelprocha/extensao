@@ -1,5 +1,4 @@
-// Pure JavaScript — sem frameworks ou bibliotecas
 document.addEventListener("DOMContentLoaded", function () {
-  var yearEl = document.getElementById("year");
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
+	var yearEl = document.getElementById("year");
+	if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
